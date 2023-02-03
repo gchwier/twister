@@ -29,6 +29,7 @@ pytest_plugins = (
     'twister2.generate_tests_plugin',
     'twister2.report.test_plan_plugin',
     'twister2.report.test_results_plugin',
+    'twister2.log_parser.subtest_status_plugin',
 )
 
 
